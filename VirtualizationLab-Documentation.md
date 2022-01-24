@@ -1,15 +1,14 @@
 <h3>Documentation for Creating a Linode with Docker installed</h3>
-___
+---
 
-**Getting Started**
-
+**Getting Started** <br>
 Login into your Linode account or create a new account if you don't have one.
 
 1. On the left-hand side of the Linode main dashboard, make sure that “Linodes” is selected. 
 
 2. Click the “Create” button in the center of the screen. 
 
-**Setting up**
+**Setting up** <br>
 Now you will configure main settings of your Linode.
 
 1. Under the “Choose a Distribution” section of the new page that popped up, select the “Ubuntu 20.4 LTS” option from the drop-down menu. 
@@ -24,14 +23,14 @@ Now you will configure main settings of your Linode.
 
 5. Select “Root Password” and create a newly created secure password.
 
-**SSH Key/Access**
+**SSH Key/Access** <br>
 To be able access and install Docker after you configured the server, you need to pre set your SSH key. If you don't have an SSH key already, look up an SSH keygen tutorial and return here once you have one.
 
 1. Import your SSH key into Linode by selecting “Add an SSH Key” and then putting in the desired label and your public key. 
 
 2. Now you can select “Create Linode” on the right-hand side of the screen and start your Linode. 
 
-**SSH Access**
+**SSH Access** <br>
 Now you will establishe an SSH connection to your newly created Linode once its up and showing the green running light on the dashboard of your Linode.
 
 1. Open a terminal application of your choice that is cappable of SSH.
@@ -40,7 +39,7 @@ Now you will establishe an SSH connection to your newly created Linode once its 
 
 3. Back on your terminal paste the copied SSH command in and enter `yes` when prompted.
 
-**Installing Docker**
+**Installing Docker** <br>
 It should now say root@ip or root@localhost in the terminal. Lastly you can update and install docker on your Linode. Type in the following commands.
 
 1. `apt update && apt upgrade –y`
