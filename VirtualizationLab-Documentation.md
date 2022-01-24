@@ -1,5 +1,5 @@
 <h3>Documentation for Creating a Linode with Docker installed</h3>
----
+<br>
 
 **Getting Started** <br>
 Login into your Linode account or create a new account if you don't have one.
