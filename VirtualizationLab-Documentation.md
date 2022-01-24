@@ -30,7 +30,7 @@ To be able access and install Docker after you configured the server, you need t
 
 2. Now you can select “Create Linode” on the right-hand side of the screen and start your Linode. 
 
-<br> **SSH Access** <br>
+<br> **SSH Connection to Linode** <br>
 Now you will establishe an SSH connection to your newly created Linode once its up and showing the green running light on the dashboard of your Linode.
 
 1. Open a terminal application of your choice that is cappable of SSH.
