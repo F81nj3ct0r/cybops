@@ -35,7 +35,7 @@ Now you will establishe an SSH connection to your newly created Linode once its 
 
 1. Open a terminal application of your choice that is cappable of SSH.
 
-2. Return to your created Linode dashboard and click the copy button on the top left of the site, next to SSH Access: `ssh root@0.0.0.0`
+2. Return to your created Linode dashboard and click the copy button on the top left of the site, next to SSH Access: ssh root@0.0.0.0
 
 3. Back on your terminal paste the copied SSH command in and enter `yes` when prompted.
 
