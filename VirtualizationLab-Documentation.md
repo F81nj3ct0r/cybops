@@ -40,7 +40,7 @@ Now you will establishe an SSH connection to your newly created Linode once its 
 3. Back on your terminal paste the copied SSH command in and enter `yes` when prompted.
 
 <br> **Installing Docker** <br>
-It should now say root@ip or root@localhost in the terminal. Lastly you can update and install docker on your Linode. Type in the following commands.
+It should now say root@0.0.0.0 or root@localhost in the terminal. Lastly you can update and install docker on your Linode. Type in the following commands.
 
 1. `apt update && apt upgrade –y`
 
