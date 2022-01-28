@@ -1,6 +1,8 @@
 <h3>Documentation for OverTheWire Bandit</h3>
 <br>
 
+//less doc style, more human read style of me explaining what i did and how   / if learned new command, denote
+
 **Setup** <br>
 
 1.  Opened terminal application
@@ -87,5 +89,39 @@
 **Level 8** <br>
 
 1. `ssh bandit.labs.overthewire.org -p 2220 -l bandit8` and enter password
-2. 
+2. `ls`
+3. `grep -E '(.)(.*\)' data.txt`
+4. `grep data.txt | sort -u`
+5. `sort -u`
+6. `sort -u -c data.txt`
+7. `uniq data.txt`
+8. `sort data.txt | uniq -u`
+9. retrieved password for bandit9 (UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR)
 
+**Level 9** <br>
+
+1. `ssh bandit.labs.overthewire.org -p 2220 -l bandit9` and enter password
+2. `grep '=====' data.txt`
+3. `grep /=== data.txt`
+4. `grep -E /e `
+5. `sort data.txt | grep ASCII`
+6. `strings --data data.txt`
+7. retireve password for bandit10 (truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk)
+
+**Level 10** <br>
+
+1. `ssh bandit.labs.overthewire.org -p 2220 -l bandit10` and enter password
+2. `base64 -d data.txt`
+3. retireve password for bandit11 (IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR)
+
+**Level 11** <br>
+
+1. `ssh bandit.labs.overthewire.org -p 2220 -l bandit11` and enter password
+2. `cat data.txt | tr '[a-z] '[n-za-m]' | tr '[A-Z]' '[N-ZA-M]'`
+3. `cat data.txt | tr '[n-za-m]' '[a-z]' | tr '[N-ZA-M]' '[A-Z]'`
+4. retrieve password for bandit12 (5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu)
+
+**Level 12** <br>
+
+1. `ssh bandit.labs.overthewire.org -p 2220 -l bandit12` and enter password
+2. 
