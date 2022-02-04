@@ -7,6 +7,5 @@ Log into your Linode machine via SSH using the setps outlined in the virutalizat
 <br> **Pulling docker immage** <br>
 Now you will pull the apache docker image we are using to install the container on your machine.
 
-1. `docker pull ubuntu/apache2`
-2. `docker run -d --name apache2-container -e TZ=UTC -p 8080:80 ubuntu/apache2:2.4-21.10_beta`
-3. Now open a browser on your local machine and connect to the URL: ip:8080 (Use the same IP as for SSH)
+1. `docker run -d --name WebServerLab -e TZ=MST -p 80:80 ubuntu/apache2:2.4-20.04_beta `
+2. Now open a browser on your local machine and connect to the URL: ip:8080 (Use the same IP as for SSH)
