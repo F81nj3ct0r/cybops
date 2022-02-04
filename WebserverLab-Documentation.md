@@ -2,21 +2,11 @@
 <br>
 
 **Getting Started** <br>
-Login into your Linode account or create a new account if you don't have one.
+Log into your Linode machine via SSH using the setps outlined in the virutalization lab documentation. Once you have established a connection, you can start installing the apache web server using docker with this documentation.
 
-1. On the left-hand side of the Linode main dashboard, make sure that “Linodes” is selected. 
+<br> **Pulling docker immage** <br>
+Now you will pull the apache docker image we are using to install the container on your machine.
 
-2. Click the “Create” button in the center of the screen. 
-
-<br> **Setting up** <br>
-Now you will configure the main settings of your Linode.
-
-1. Under the “Choose a Distribution” section of the new page that popped up, select the “Ubuntu 20.4 LTS” option from the drop-down menu. 
-
-2. Select “Region” and select your desired region from the drop-down menu.  
-
-3. Chose the “Linode Plan” and select “Dedicated CPU” and chose the “Dedicated 4 GB” option.  
-
-4. Select “Linode Label” and type in your desired label. 
-
-5. Select “Root Password” and create a newly created secure password.
+1. `docker pull ubuntu/apache2`
+2. `docker run -d --name apache2-container -e TZ=UTC -p 8080:80 ubuntu/apache2:2.4-21.10_beta`
+3. Now open a browser on your local machine and connect to the URL: ip:8080 (Use the same IP as for SSH)
