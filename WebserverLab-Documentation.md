@@ -1,4 +1,4 @@
-<h3>Documentation for installing an containerized Apache webserver and hardening it</h3>
+<h1>Documentation for installing an containerized Apache webserver and hardening it</h1>
 <br>
 
 **Getting Started** <br>
@@ -9,3 +9,10 @@ Now you will pull the apache docker image we are using to install the container 
 
 1. `docker run -d --name WebServerLab -e TZ=MST -p 80:80 ubuntu/apache2:2.4-20.04_beta `
 2. Now open a browser on your local machine and connect to the URL: ip:8080 (Use the same IP as for SSH)
+
+<h2>Securing the Apache Webserver<h/2>
+<br>
+  
+**asd** <br>
+
+1.
