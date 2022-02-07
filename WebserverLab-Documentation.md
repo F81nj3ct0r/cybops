@@ -10,7 +10,7 @@ Now you will pull the apache docker image we are using to install the container 
 1. `docker run -d --name WebServerLab -e TZ=MST -p 80:80 ubuntu/apache2:2.4-20.04_beta `
 2. Now open a browser on your local machine and connect to the URL: ip:8080 (Use the same IP as for SSH)
 
-**Getting started with the container** <br>
+<br> **Getting started with the container** <br>
 First we need to remote into the container via bash from the existing SSH connection into the Linode and then you will install a small text editor in order to configure the server.
 
 1. First figure out your container ID or name by typing `docker ps`
@@ -18,7 +18,7 @@ First we need to remote into the container via bash from the existing SSH connec
 3. Now update the container `apt-get update`
 4. Now you can install the text editor `apt-get install nano`
 
-**Configure the apache server**
+<br> **Configure the apache server** <br>
 In this part you will edit the security section of the apache configure file to make the whole server more secure.
 
 1.
