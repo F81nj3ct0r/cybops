@@ -14,7 +14,7 @@ Now you will pull the apache docker image we are using to install the container 
 First we need to remote into the container via bash from the existing SSH connection into the Linode and then you will install a small text editor in order to configure the server.
 
 1. First figure out your container ID or name by typing `docker ps`
-2. Use this to terminal into the container (replace "apache2-container" with either your container ID or name) `docker exec -it apache2-container /bin/bash`
+2. Use this to terminal into the container (replace "apache2-container" with either your container ID or name) <br> `docker exec -it apache2-container /bin/bash`
 3. Now update the container `apt-get update`
 4. Now you can install the text editor `apt-get install nano`
 
