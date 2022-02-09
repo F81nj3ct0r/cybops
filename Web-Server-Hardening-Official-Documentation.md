@@ -5,7 +5,7 @@
 1.	Log into your Linode machine via SSH using the steps outlined in the “Virtualization Lab” documentation. 
 2.	Once you have established a connection, you can start installing the Apache web server using Docker by following this documentation.
 
-**Pulling in the Docker Image:
+**Pulling in the Docker Image:**
 1.	Pull the Apache based Docker image we are using to install the container onto your machine by typing:
      		docker run -d --name WebServerLab -e TZ=MST -p 80:80 ubuntu/apache2:2.4-20.04_beta
 2.	Now open a browser on your local machine and connect to the URL: 
