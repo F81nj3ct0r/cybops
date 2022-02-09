@@ -6,11 +6,11 @@
 2.	Once you have established a connection, you can start installing the Apache web server using Docker by following this documentation.
 
 **Pulling in the Docker Image:** <br>
-1.	Pull the Apache based Docker image we are using to install the container onto your machine by typing:
+1.	Pull the Apache based Docker image we are using to install the container onto your machine by typing: <br>
      		docker run -d --name WebServerLab -e TZ=MST -p 80:80 ubuntu/apache2:2.4-20.04_beta
-2.	Now open a browser on your local machine and connect to the URL: 
-      		http://[Your Linode Server’s IP]
-	*Note: This should bring up the default Apache web page for your new server
+2.	Now open a browser on your local machine and connect to the URL:  <br>
+      		http://[Your Linode Server’s IP] <br>
+	*Note: This should bring up the default Apache web page for your new server <br>
 
 **Getting Started with the Container:** <br>
 -	We will remote into the container install a text editor so we can configure the server.
