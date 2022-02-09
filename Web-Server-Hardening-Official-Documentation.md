@@ -7,7 +7,7 @@ Getting Started:
 
 Pulling in the Docker Image:
 1.	Pull the Apache based Docker image we are using to install the container onto your machine by typing:
-     		docker run -d --name WebServerLab -e TZ=MST -p 80:80 ubuntu/apache2:2.4-	20.04_beta
+     		docker run -d --name WebServerLab -e TZ=MST -p 80:80 ubuntu/apache2:2.4-20.04_beta
 2.	Now open a browser on your local machine and connect to the URL: 
       		http://[Your Linode Server’s IP]
 	*Note: This should bring up the default Apache web page for your new server
