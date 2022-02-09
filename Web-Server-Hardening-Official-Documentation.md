@@ -15,7 +15,7 @@
 **Getting Started with the Container:** <br>
 -	We will remote into the container install a text editor so we can configure the server.
 1.	First figure out your container ID or container name by typing: <br>
-      		docker ps
+      		docker ps <br>
 	*Note: If you used to command provided in the previous steps, the container name should be “WebServerLab”.
 2.	Then, use this name to get into the container by typing: <br>
       		docker exec -it [Your Apache Container’s Name] /bin/bash
