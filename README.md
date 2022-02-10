@@ -1,4 +1,4 @@
-**# cybops - Contributers: @Amanue11 (https://github.com/Amanue11), @dweinert (https://github.com/dweinert), @tmill113 (https://github.com/tmill113), and @F81nj3ct0r (https://github.com/F81nj3ct0r)** <br>
+**# cybops - Contributers: <br> @Amanue11 (https://github.com/Amanue11), @dweinert (https://github.com/dweinert), @tmill113 (https://github.com/tmill113), and @F81nj3ct0r (https://github.com/F81nj3ct0r)** <br>
 <h3> CybOps Project Portfolio </h3>
 This is a portfolio that was put together by a group of us for our Cyber Security Operations class we are taking. <br>
 <br>
