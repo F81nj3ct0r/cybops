@@ -36,7 +36,9 @@ Disabling Remote Root Access and Adding a new “dev” User:
 2.	Now, create a safe and unique password for your new account by using this command to prompt a password change (after which you type in your new password): <br>
       		`passwd dev` <br>
       		`[Your New Password]`
-3.	Now you can disable remote root account access by first editing the SSH configuration file by typing: <br>
+3.	Add the "dev" user into the superusers group by typing: <br>
+4.		`usermod -aG sudo dev`
+5.	Now you can disable remote root account access by first editing the SSH configuration file by typing: <br>
       		`nano /etc/ssh/sshd_config`
 4.	Once in the file, press the down arrow key until you find the line that says: “PermitRootLogin yes”. 
 5.	Then, simply add a “#” symbol in front of the line (just like all the other lines). Once done, press ctrl+X, and then type Y and hit ENTER.
