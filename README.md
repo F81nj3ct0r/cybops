@@ -12,4 +12,4 @@ If you like the content, follow all of us contributers and I am certain we will 
 Enjoy! <br>
 <br>
 
-**# cybops - Contributers: <br> @Amanue11 (https://github.com/Amanue11) <br> @dweinert (https://github.com/dweinert)  <br> @tmill113 (https://github.com/tmill113) <br> @F81nj3ct0r (https://github.com/F81nj3ct0r)** <br>
+**# cybops - Contributers: <br> Amanue11 (https://github.com/Amanue11) <br> dweinert (https://github.com/dweinert)  <br> tmill113 (https://github.com/tmill113) <br> F81nj3ct0r (https://github.com/F81nj3ct0r)** <br>
