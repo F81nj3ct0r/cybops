@@ -1,4 +1,3 @@
-**# cybops - Contributers: <br> @Amanue11 (https://github.com/Amanue11), @dweinert (https://github.com/dweinert), @tmill113 (https://github.com/tmill113), and @F81nj3ct0r (https://github.com/F81nj3ct0r)** <br>
 <h3> CybOps Project Portfolio </h3>
 This is a portfolio that was put together by a group of us for our Cyber Security Operations class we are taking. <br>
 <br>
@@ -10,4 +9,7 @@ This documentation is to serve the purposes of: <br>
 <br>
 If you like the content, follow all of us contributers and I am certain we will come out with more content soon! <br>
 <br>
-Enjoy!
+Enjoy! <br>
+<br>
+
+**# cybops - Contributers: <br> @Amanue11 (https://github.com/Amanue11) <br> @dweinert (https://github.com/dweinert)  <br> @tmill113 (https://github.com/tmill113) <br> @F81nj3ct0r (https://github.com/F81nj3ct0r)** <br>
